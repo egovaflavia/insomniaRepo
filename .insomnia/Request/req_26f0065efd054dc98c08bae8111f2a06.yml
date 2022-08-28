@@ -1,0 +1,43 @@
+_id: req_26f0065efd054dc98c08bae8111f2a06
+type: Request
+parentId: fld_b51294a5d105412da630b1666f33e899
+modified: 1661662236167
+created: 1661661614320
+url: http://127.0.0.1:8000/api/v1/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_36f5139070e846e0a334f00879cb3bb6
+      name: name
+      value: Egova
+      description: ""
+    - id: pair_04c76261cad244c487f50d1e122edbc8
+      name: email
+      value: egovaflavia@gmail.com
+      description: ""
+    - id: pair_9543cc11c6cc419696994ce34ad50e8e
+      name: password
+      value: asdasd12
+      description: ""
+      disabled: false
+    - id: pair_eb6a4f3d42ef4113b96efc4c87ebe233
+      name: password_confirmation
+      value: asdasd12
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_cd1752093e3347b5ba1e4adabcf07465
+authentication: {}
+metaSortKey: -1661661614320
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_4c9320a448ce41aa9e03d56f3e1202ef
+type: Request
+parentId: fld_09fcd4c49148439faed88c5f769f14b5
+modified: 1661468558476
+created: 1661468364464
+url: http://localhost:8000/api/posts/1
+name: Delete
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_ce56f754f8d04cf6a8b491db30498e32
+      name: _method
+      value: DELETE
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_b438e2874d0942718cc4fb3dcfdb4b0a
+authentication: {}
+metaSortKey: -1661468364464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

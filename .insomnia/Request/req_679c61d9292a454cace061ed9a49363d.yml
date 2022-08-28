@@ -1,0 +1,38 @@
+_id: req_679c61d9292a454cace061ed9a49363d
+type: Request
+parentId: fld_09fcd4c49148439faed88c5f769f14b5
+modified: 1661468357616
+created: 1661445338380
+url: http://localhost:8000/api/posts
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_6562d6dae9c84c7db96b2dc79e7543db
+      name: title
+      value: Ini judul Store 2
+      description: ""
+    - id: pair_bd9aab26748347d2836d364e21992549
+      name: content
+      value: >
+        
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ea, iure molestias quia, dolore vero obcaecati ex mollitia quis maiores, saepe enim eius quas omnis libero repellendus nulla architecto quidem.
+      description: ""
+      type: text
+      multiline: text/plain
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_0c45f7bee92649acb051db242991d889
+authentication: {}
+metaSortKey: -1661445338380
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

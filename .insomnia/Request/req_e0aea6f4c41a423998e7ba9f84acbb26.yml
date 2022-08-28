@@ -1,0 +1,43 @@
+_id: req_e0aea6f4c41a423998e7ba9f84acbb26
+type: Request
+parentId: fld_0e18cc32539d451b83311667d3f2b201
+modified: 1661009715250
+created: 1661007733579
+url: http://localhost:8000/api/posts
+name: Post
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_99b5718ca06c4ee5bce28e824c5aa156
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\egova\Pictures\rumi-1280x720-5dde2056d541df38c02436f3.jpg
+    - id: pair_367d3a3b0f4d4496b5cb3249b39a1471
+      name: title
+      value: Judul Gambar
+      description: ""
+    - id: pair_5f00cf209bce49cd9547cd4e848e161b
+      name: content
+      value: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+        reiciendis enim, perspiciatis voluptates asperiores accusantium
+        repellendus rerum nesciunt soluta tempora voluptas saepe atque at vero
+        laborum assumenda quae cum hic!
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_d9e8c5e0e2064f61a7e2ffbb072ca07f
+authentication: {}
+metaSortKey: -1661007733579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

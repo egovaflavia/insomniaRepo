@@ -1,0 +1,39 @@
+_id: req_66f324daf3084b1ab5401872bf9ac59c
+type: Request
+parentId: fld_09fcd4c49148439faed88c5f769f14b5
+modified: 1661468362223
+created: 1661467954747
+url: http://localhost:8000/api/posts/1
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e0afd88a5061469384fa3913f4229d28
+      name: title
+      value: Ubah Judul
+      description: ""
+    - id: pair_1d3a5ea0b673471f80179881423bb89a
+      name: content
+      value: Ubah Content
+      description: ""
+    - id: pair_4809b887c31f4c8d8c8519ce289bba24
+      name: _method
+      value: PUT
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5be86a53175b4ac7988bf66be6405a51
+authentication: {}
+metaSortKey: -1661467954747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_a95a933bddb94e61b8d3cb2fef5c7f33
+type: Request
+parentId: fld_b51294a5d105412da630b1666f33e899
+modified: 1661662461788
+created: 1661662241700
+url: http://127.0.0.1:8000/api/v1/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_04c76261cad244c487f50d1e122edbc8
+      name: email
+      value: egovaflavia@gmail.com
+      description: ""
+      disabled: false
+    - id: pair_44a18db39f1a471ab7405315ff2b12cb
+      name: password
+      value: asdasd12
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_cd1752093e3347b5ba1e4adabcf07465
+authentication: {}
+metaSortKey: -1661564989392
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

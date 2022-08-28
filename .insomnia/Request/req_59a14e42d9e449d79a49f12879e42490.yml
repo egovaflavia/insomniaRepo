@@ -1,0 +1,45 @@
+_id: req_59a14e42d9e449d79a49f12879e42490
+type: Request
+parentId: fld_b51294a5d105412da630b1666f33e899
+modified: 1661662617124
+created: 1661662491444
+url: http://127.0.0.1:8000/api/v1/user
+name: Show user
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_04c76261cad244c487f50d1e122edbc8
+      name: email
+      value: egovaflavia@gmail.com
+      description: ""
+      disabled: true
+    - id: pair_44a18db39f1a471ab7405315ff2b12cb
+      name: password
+      value: asdasd12
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - id: pair_dc19e2887cd5483f8ce14c60fe231309
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_cd1752093e3347b5ba1e4adabcf07465
+  - id: pair_bb14222d0e0642679ad5b552e91ec85e
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3YxL2xvZ2luIiwiaWF0IjoxNjYxNjYyNDYyLCJleHAiOjE2NjE2NjYwNjIsIm5iZiI6MTY2MTY2MjQ2MiwianRpIjoidWxMbzgza29mUDRnYWhCeSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e0Vavcya7MKwqeGubp3_bKN1wBmm0oCur3sLJwpVZ8
+    description: ""
+authentication: {}
+metaSortKey: -1661516676928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_22c7963507f54a6ab6d77ccdc9140b9a
+type: Request
+parentId: fld_0e18cc32539d451b83311667d3f2b201
+modified: 1661013598650
+created: 1661012995848
+url: http://localhost:8000/api/posts/1
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8afd4aa0f8644ee79f23d453847fd4c1
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\egova\Pictures\rumi-1280x720-5dde2056d541df38c02436f3.jpg
+    - id: pair_f49093a3b3f848b58f304ee805e1b342
+      name: title
+      value: Test
+      description: ""
+    - id: pair_fa9cc82456b640f6a5470913480b3d1a
+      name: content
+      value: "disesuaikan "
+      description: ""
+    - id: pair_a60808a9cd4d4e0d818403d47bc53126
+      name: _method
+      value: PUT
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5aad65e44bc541ef9864d4fdabd24b06
+authentication: {}
+metaSortKey: -1661012995848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
